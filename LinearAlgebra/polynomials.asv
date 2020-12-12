@@ -1,9 +1,0 @@
-% polyval() returns the value of a polynomial of degree n evaluated at x
-% the input argument p is a vector of length n+1 whose elements are
-% coefficients in descending powers of the polynomial to be evaluated
-
-
-
-y = polyval(p, x);
-
-function polyval2 poly = polyval2(poly

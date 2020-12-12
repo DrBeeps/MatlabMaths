@@ -17,3 +17,4 @@ disp(polyout)
 % function polyval2 poly = polyval2(poly)
 %     poly = 
 % end
+doc polyval
