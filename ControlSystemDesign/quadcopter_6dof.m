@@ -32,6 +32,8 @@ x = [pX pY pZ vX vY vZ rA pA yA rR pR yR];
 
 u = [upForce pT rT yT]; % total upwards force pitch roll and yaw torques
 
+
+
 A = [0 0 0 1 0 0 0 0 0 0 0 0; 
      0 0 0 0 1 0 0 0 0 0 0 0; 
      0 0 0 0 0 1 0 0 0 0 0 0; 
