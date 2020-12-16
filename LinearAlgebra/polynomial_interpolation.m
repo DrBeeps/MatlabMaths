@@ -1,7 +1,7 @@
 % there is a built in function that returns coefficients for a polynomial
 % p(x) of degree that is a best fit for the data in y
 
-x = linspace(0, 4*pi, 10); % generate 10 points equally spaceed along a sine curve at interval [0, 4*pi]
+x = linspace(0, 4*pi, 10); % generate 10 points equally spaced along a sine curve at interval [0, 4*pi]
 y = cos(x);
 
 poly_test = polyfit(x, y, 7); % fit a 7th degree polynomial to the points
